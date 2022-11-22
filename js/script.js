@@ -1,14 +1,18 @@
+
+
 function menu_home() {
-    
-    document.getElementById('menu').innerHTML = "home";
+
+    document.getElementById('menu').innerHTML = "Home";
+
 }
+
 function menu_downloads() {
     
-    document.getElementById('menu').innerHTML = "down";
+    document.getElementById('menu').innerHTML = "Downloads";
 }
 function menu_docs() {
     
-    document.getElementById('menu').innerHTML = "docs";
+    document.getElementById('menu').innerHTML = "Documents";
 }
 
 function time() {
@@ -16,6 +20,8 @@ function time() {
     d = new Date().toDateString();
     var time = d + ", " + t;
     document.getElementById('time').innerHTML = time;
+
+    
 }
 setInterval(time, 1000);
 

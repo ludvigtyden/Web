@@ -15,12 +15,27 @@ body {
     text-align: center;
   
   }
-  a {
-    color: purple;
-  }
-  button {
+
+  #home_button {
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    width: 100%;
+  }
+
+  #downloads_button {
+    color: blue;
     font-family: 'Times New Roman', Times, serif;
     background-color: whitesmoke;
     width: 100%;
   }
+
+  #doc_button {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    width: 100%;
+
+  }
+
+
