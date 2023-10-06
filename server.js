@@ -81,18 +81,3 @@ function connect_database()
 }
 
 connect_database()
-
-make_query ()
-{
-    client.query('SELECT * FROM users', (err, res) => 
-    {
-        if (err) {
-            console.error(err);
-            return;
-        }
-        for (let row of res.rows) {
-            console.log(row);
-        }
-        client.end();
-    });
-}
