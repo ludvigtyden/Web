@@ -19,12 +19,12 @@ body {
   #home_button {
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    background-color: blue;
+    background-color: whitesmoke;
     width: 100%;
   }
 
   #downloads_button {
-    color: blue;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     background-color: whitesmoke;
     width: 100%;
